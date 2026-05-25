@@ -1,0 +1,33 @@
+# Local secrets
+.env
+
+# Runtime data
+*.db
+*.db-shm
+*.db-wal
+*.log
+reports/*.log
+
+# Generated reports and exports
+quant_volume_report.md
+quant_volume_samples.csv
+reports/daily_market_advice.md
+reports/market_advice_*.md
+backups/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
